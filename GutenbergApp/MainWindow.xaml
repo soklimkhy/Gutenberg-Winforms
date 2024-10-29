@@ -1,0 +1,33 @@
+﻿<Window x:Class="GutenbergApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GutenbergApp"
+        mc:Ignorable="d"
+        Background="#383838"
+        Title="Gutenberg EBooks" 
+        Height="920" 
+        Width="662">
+    <StackPanel Orientation="Vertical"
+            HorizontalAlignment="Center">
+        <Label Foreground="#FFFFFF"
+           HorizontalContentAlignment="Center"
+           Margin="0,20,0,10"
+           FontSize="64"
+           Content="Gutenberg EBooks"/>
+        
+
+        <ScrollViewer VerticalScrollBarVisibility="Hidden" 
+                      HorizontalScrollBarVisibility="Disabled" 
+                      Width="535"
+                      Height="656">
+            
+            <StackPanel x:Name="LayoutBooks">
+            
+           
+            </StackPanel>
+        </ScrollViewer>
+    </StackPanel>
+    
+</Window>

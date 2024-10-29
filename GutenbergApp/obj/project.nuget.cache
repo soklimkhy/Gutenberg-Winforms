@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FkqrgAN6TOk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sokli\\OneDrive\\Desktop\\Final Project Task1\\GutenbergApp\\GutenbergApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sokli\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
